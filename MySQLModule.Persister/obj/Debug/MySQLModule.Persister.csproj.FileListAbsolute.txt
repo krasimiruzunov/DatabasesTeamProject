@@ -1,0 +1,11 @@
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\MySQLModule.Persister.exe.config
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\MySQLModule.Persister.exe
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\MySQLModule.Persister.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\MySQLModule.Data.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\ProductInfo.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\MySQLModule.Data.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\bin\Debug\ProductInfo.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\obj\Debug\MySQLModule.Persister.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\obj\Debug\MySQLModule.Persister.exe
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MySQLModule.Persister\obj\Debug\MySQLModule.Persister.pdb

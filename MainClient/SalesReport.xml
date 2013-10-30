@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sales>
+  <sale vendor="Apple">
+    <summnary date="20-Jul-2013" total-sum="54.00" />
+    <summnary date="20-Jul-2013" total-sum="54.00" />
+    <summnary date="20-Jul-2013" total-sum="54.00" />
+    <summnary date="21-Jul-2013" total-sum="54.00" />
+    <summnary date="21-Jul-2013" total-sum="55.80" />
+    <summnary date="21-Jul-2013" total-sum="16.00" />
+    <summnary date="21-Jul-2013" total-sum="34.50" />
+    <summnary date="22-Jul-2013" total-sum="18.72" />
+    <summnary date="22-Jul-2013" total-sum="54.00" />
+    <summnary date="22-Jul-2013" total-sum="37.20" />
+    <summnary date="20-Jul-2013" total-sum="55.20" />
+    <summnary date="20-Jul-2013" total-sum="43.75" />
+    <summnary date="20-Jul-2013" total-sum="69.00" />
+    <summnary date="21-Jul-2013" total-sum="28.80" />
+    <summnary date="21-Jul-2013" total-sum="30.00" />
+    <summnary date="21-Jul-2013" total-sum="55.20" />
+    <summnary date="21-Jul-2013" total-sum="73.60" />
+    <summnary date="22-Jul-2013" total-sum="55.20" />
+    <summnary date="22-Jul-2013" total-sum="54.00" />
+    <summnary date="22-Jul-2013" total-sum="55.20" />
+  </sale>
+  <sale vendor="Asus">
+    <summnary date="20-Jul-2013" total-sum="58.30" />
+    <summnary date="20-Jul-2013" total-sum="53.00" />
+    <summnary date="20-Jul-2013" total-sum="53.00" />
+    <summnary date="21-Jul-2013" total-sum="14.40" />
+    <summnary date="21-Jul-2013" total-sum="88.40" />
+    <summnary date="21-Jul-2013" total-sum="68.90" />
+    <summnary date="21-Jul-2013" total-sum="37.10" />
+    <summnary date="22-Jul-2013" total-sum="33.00" />
+    <summnary date="22-Jul-2013" total-sum="43.00" />
+    <summnary date="22-Jul-2013" total-sum="53.00" />
+    <summnary date="20-Jul-2013" total-sum="21.60" />
+    <summnary date="20-Jul-2013" total-sum="10.80" />
+    <summnary date="20-Jul-2013" total-sum="28.80" />
+    <summnary date="21-Jul-2013" total-sum="57.60" />
+    <summnary date="21-Jul-2013" total-sum="57.60" />
+    <summnary date="21-Jul-2013" total-sum="64.00" />
+    <summnary date="21-Jul-2013" total-sum="39.60" />
+    <summnary date="22-Jul-2013" total-sum="60.80" />
+    <summnary date="22-Jul-2013" total-sum="57.60" />
+    <summnary date="22-Jul-2013" total-sum="57.60" />
+  </sale>
+  <sale vendor="Craft foods">
+    <summnary date="20-Jul-2013" total-sum="24.00" />
+    <summnary date="20-Jul-2013" total-sum="18.70" />
+    <summnary date="20-Jul-2013" total-sum="18.70" />
+    <summnary date="21-Jul-2013" total-sum="18.70" />
+    <summnary date="21-Jul-2013" total-sum="18.70" />
+    <summnary date="21-Jul-2013" total-sum="18.70" />
+    <summnary date="21-Jul-2013" total-sum="14.40" />
+    <summnary date="22-Jul-2013" total-sum="13.20" />
+    <summnary date="22-Jul-2013" total-sum="18.70" />
+    <summnary date="22-Jul-2013" total-sum="20.40" />
+  </sale>
+  <sale vendor="HP">
+    <summnary date="20-Jul-2013" total-sum="38.40" />
+    <summnary date="20-Jul-2013" total-sum="38.40" />
+    <summnary date="20-Jul-2013" total-sum="39.60" />
+    <summnary date="21-Jul-2013" total-sum="19.20" />
+    <summnary date="21-Jul-2013" total-sum="36.80" />
+    <summnary date="21-Jul-2013" total-sum="20.00" />
+    <summnary date="21-Jul-2013" total-sum="38.40" />
+    <summnary date="22-Jul-2013" total-sum="38.40" />
+    <summnary date="22-Jul-2013" total-sum="38.40" />
+    <summnary date="22-Jul-2013" total-sum="38.40" />
+    <summnary date="20-Jul-2013" total-sum="640.80" />
+    <summnary date="20-Jul-2013" total-sum="43.20" />
+    <summnary date="20-Jul-2013" total-sum="64.80" />
+    <summnary date="21-Jul-2013" total-sum="64.80" />
+    <summnary date="21-Jul-2013" total-sum="72.00" />
+    <summnary date="21-Jul-2013" total-sum="18.00" />
+    <summnary date="21-Jul-2013" total-sum="64.80" />
+    <summnary date="22-Jul-2013" total-sum="28.80" />
+    <summnary date="22-Jul-2013" total-sum="66.60" />
+    <summnary date="22-Jul-2013" total-sum="64.80" />
+  </sale>
+  <sale vendor="Kamenitsa AD">
+    <summnary date="20-Jul-2013" total-sum="473.80" />
+    <summnary date="20-Jul-2013" total-sum="471.50" />
+    <summnary date="20-Jul-2013" total-sum="471.50" />
+    <summnary date="21-Jul-2013" total-sum="492.00" />
+    <summnary date="21-Jul-2013" total-sum="471.50" />
+    <summnary date="21-Jul-2013" total-sum="820.00" />
+    <summnary date="21-Jul-2013" total-sum="471.50" />
+    <summnary date="22-Jul-2013" total-sum="308.25" />
+    <summnary date="22-Jul-2013" total-sum="476.10" />
+    <summnary date="22-Jul-2013" total-sum="534.30" />
+    <summnary date="20-Jul-2013" total-sum="215.00" />
+    <summnary date="20-Jul-2013" total-sum="172.00" />
+    <summnary date="20-Jul-2013" total-sum="215.00" />
+    <summnary date="21-Jul-2013" total-sum="172.00" />
+    <summnary date="21-Jul-2013" total-sum="480.60" />
+    <summnary date="21-Jul-2013" total-sum="172.00" />
+    <summnary date="21-Jul-2013" total-sum="180.60" />
+    <summnary date="22-Jul-2013" total-sum="189.20" />
+    <summnary date="22-Jul-2013" total-sum="0.00" />
+    <summnary date="22-Jul-2013" total-sum="129.00" />
+  </sale>
+  <sale vendor="Nestle">
+    <summnary date="20-Jul-2013" total-sum="7.20" />
+    <summnary date="20-Jul-2013" total-sum="7.20" />
+    <summnary date="20-Jul-2013" total-sum="7.80" />
+    <summnary date="21-Jul-2013" total-sum="7.68" />
+    <summnary date="21-Jul-2013" total-sum="7.20" />
+    <summnary date="21-Jul-2013" total-sum="7.80" />
+    <summnary date="21-Jul-2013" total-sum="12.00" />
+    <summnary date="22-Jul-2013" total-sum="7.20" />
+    <summnary date="22-Jul-2013" total-sum="13.20" />
+    <summnary date="22-Jul-2013" total-sum="7.20" />
+    <summnary date="20-Jul-2013" total-sum="12.00" />
+    <summnary date="20-Jul-2013" total-sum="10.20" />
+    <summnary date="20-Jul-2013" total-sum="23.00" />
+    <summnary date="21-Jul-2013" total-sum="9.60" />
+    <summnary date="21-Jul-2013" total-sum="9.60" />
+    <summnary date="21-Jul-2013" total-sum="9.60" />
+    <summnary date="21-Jul-2013" total-sum="9.60" />
+    <summnary date="22-Jul-2013" total-sum="9.60" />
+    <summnary date="22-Jul-2013" total-sum="9.60" />
+    <summnary date="22-Jul-2013" total-sum="12.00" />
+  </sale>
+  <sale vendor="Pobeda">
+    <summnary date="20-Jul-2013" total-sum="27.60" />
+    <summnary date="20-Jul-2013" total-sum="23.00" />
+    <summnary date="20-Jul-2013" total-sum="293.75" />
+    <summnary date="21-Jul-2013" total-sum="28.80" />
+    <summnary date="21-Jul-2013" total-sum="23.50" />
+    <summnary date="21-Jul-2013" total-sum="24.00" />
+    <summnary date="21-Jul-2013" total-sum="22.00" />
+    <summnary date="22-Jul-2013" total-sum="23.00" />
+    <summnary date="22-Jul-2013" total-sum="115.00" />
+    <summnary date="22-Jul-2013" total-sum="27.60" />
+    <summnary date="20-Jul-2013" total-sum="16.10" />
+    <summnary date="20-Jul-2013" total-sum="17.25" />
+    <summnary date="20-Jul-2013" total-sum="16.10" />
+    <summnary date="21-Jul-2013" total-sum="13.80" />
+    <summnary date="21-Jul-2013" total-sum="9.00" />
+    <summnary date="21-Jul-2013" total-sum="38.50" />
+    <summnary date="21-Jul-2013" total-sum="16.80" />
+    <summnary date="22-Jul-2013" total-sum="8.40" />
+    <summnary date="22-Jul-2013" total-sum="2.10" />
+    <summnary date="22-Jul-2013" total-sum="16.10" />
+  </sale>
+  <sale vendor="Zagorka AD">
+    <summnary date="20-Jul-2013" total-sum="54.86" />
+    <summnary date="20-Jul-2013" total-sum="163.54" />
+    <summnary date="20-Jul-2013" total-sum="154.70" />
+    <summnary date="21-Jul-2013" total-sum="237.60" />
+    <summnary date="21-Jul-2013" total-sum="168.35" />
+    <summnary date="21-Jul-2013" total-sum="244.62" />
+    <summnary date="21-Jul-2013" total-sum="88.20" />
+    <summnary date="22-Jul-2013" total-sum="75.14" />
+    <summnary date="22-Jul-2013" total-sum="163.54" />
+    <summnary date="22-Jul-2013" total-sum="163.54" />
+    <summnary date="20-Jul-2013" total-sum="191.90" />
+    <summnary date="20-Jul-2013" total-sum="42.00" />
+    <summnary date="20-Jul-2013" total-sum="168.00" />
+    <summnary date="21-Jul-2013" total-sum="144.00" />
+    <summnary date="21-Jul-2013" total-sum="187.00" />
+    <summnary date="21-Jul-2013" total-sum="140.00" />
+    <summnary date="21-Jul-2013" total-sum="110.00" />
+    <summnary date="22-Jul-2013" total-sum="340.00" />
+    <summnary date="22-Jul-2013" total-sum="140.00" />
+    <summnary date="22-Jul-2013" total-sum="140.00" />
+  </sale>
+</sales>

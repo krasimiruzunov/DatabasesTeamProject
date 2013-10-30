@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="EntitiesModel" namespace="MySQLModule.Model" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="EntitiesModel" backend="mysql" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="MySQLModule.Model" default="true">
+      <orm:class name="Vendor" uniqueId="0d5bdb31-bb29-4cf7-8246-ea3772b50c3f">
+        <orm:table name="vendors" />
+        <orm:identity>
+          <orm:key-generator name="autoinc" />
+          <orm:single-field field-name="_idVendors" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_idVendors" property="IdVendors" behavior="readwrite" uniqueId="eed012d7-368a-42df-a28c-6eab354350e0" type="System.Int32">
+          <orm:column name="idVendors" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_vendorName" property="VendorName" behavior="readwrite" uniqueId="836373ae-5c49-4c69-a474-0cc103b2205c" type="System.String">
+          <orm:column name="VendorName" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_products" property="Products" behavior="readwrite" uniqueId="3755bb2d-25d9-4dcf-bdfc-df9b9cd93daf" type="MySQLModule.Model.Product">
+          <orm:collection element-class="MySQLModule.Model.Product" inverse-field="_vendor" order-by="" uniqueId="331cd9c1-44af-44d9-aaa0-d18572b83d7e" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="Product" uniqueId="d0eb7704-f19f-4580-97b4-c1d04d11884d">
+        <orm:table name="products" />
+        <orm:identity>
+          <orm:key-generator name="autoinc" />
+          <orm:single-field field-name="_idProducts" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_idProducts" property="IdProducts" behavior="readwrite" uniqueId="2ba9b2b3-a272-4f70-a747-510fe203914e" type="System.Int32">
+          <orm:column name="idProducts" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_productName" property="ProductName" behavior="readwrite" uniqueId="2f6e43b7-c09e-40a8-a51b-af138ca02d01" type="System.String">
+          <orm:column name="ProductName" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_vendors_idVendors" property="Vendors_idVendors" behavior="readwrite" uniqueId="3ccaadd4-c1d4-469b-abd8-563a1800540c" type="System.Int32">
+          <orm:column name="Vendors_idVendors" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_measures_idMeasures" property="Measures_idMeasures" behavior="readwrite" uniqueId="b57a1cf9-9f3b-4bff-93b7-8a46cfcf888e" type="System.Int32">
+          <orm:column name="Measures_idMeasures" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_basePrice" property="BasePrice" behavior="readwrite" uniqueId="b9493393-9bcb-412e-88a6-27a853676622" type="System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+          <orm:column name="BasePrice" sql-type="decimal" nullable="true" length="10" scale="2" ado-type="Decimal" />
+        </orm:field>
+        <orm:field name="_measure" property="Measure" behavior="readwrite" uniqueId="ea7a2037-a6d9-4fcb-ac16-b2fbdc351cb7" type="MySQLModule.Model.Measure">
+          <orm:reference uniqueId="36d9a432-2a17-4c67-9a35-97aa5529b4ac">
+            <orm:sharedfield name="_measures_idMeasures" target-class="MySQLModule.Model.Measure" target-field="_idMeasures" />
+            <orm:constraint name="fk_Products_Measures1" destination-table="measures" />
+          </orm:reference>
+        </orm:field>
+        <orm:field name="_vendor" property="Vendor" behavior="readwrite" uniqueId="0f2b1e4b-e0d1-483c-b484-c03ac7cf7c80" type="MySQLModule.Model.Vendor">
+          <orm:reference uniqueId="331cd9c1-44af-44d9-aaa0-d18572b83d7e">
+            <orm:sharedfield name="_vendors_idVendors" target-class="MySQLModule.Model.Vendor" target-field="_idVendors" />
+            <orm:constraint name="fk_Products_Vendors" destination-table="vendors" />
+          </orm:reference>
+        </orm:field>
+        <orm:index name="fk_Products_Measures1_idx">
+          <orm:columnMapping>
+            <orm:column name="Measures_idMeasures" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+        <orm:index name="fk_Products_Vendors_idx">
+          <orm:columnMapping>
+            <orm:column name="Vendors_idVendors" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+      </orm:class>
+      <orm:class name="Measure" uniqueId="53f2b985-da5d-4ee9-8e38-506069cd1575">
+        <orm:table name="measures" />
+        <orm:identity>
+          <orm:key-generator name="autoinc" />
+          <orm:single-field field-name="_idMeasures" />
+        </orm:identity>
+        <orm:concurrency strategy="changed" />
+        <orm:field name="_idMeasures" property="IdMeasures" behavior="readwrite" uniqueId="e671403e-ef74-49b5-b793-2132633de8aa" type="System.Int32">
+          <orm:column name="idMeasures" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        </orm:field>
+        <orm:field name="_measureName" property="MeasureName" behavior="readwrite" uniqueId="8a667414-04ca-4ffa-a577-2c2fc2855290" type="System.String">
+          <orm:column name="MeasureName" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+        </orm:field>
+        <orm:field name="_products" property="Products" behavior="readwrite" uniqueId="819b5565-92b0-4416-b94d-89090f0d3d51" type="MySQLModule.Model.Product">
+          <orm:collection element-class="MySQLModule.Model.Product" inverse-field="_measure" order-by="" uniqueId="36d9a432-2a17-4c67-9a35-97aa5529b4ac" />
+        </orm:field>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="">
+      <orm:table name="vendors">
+        <orm:column name="idVendors" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="VendorName" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+      </orm:table>
+      <orm:table name="products">
+        <orm:column name="idProducts" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="ProductName" sql-type="nvarchar" nullable="true" length="100" scale="0" ado-type="UnicodeStringVariableLength" />
+        <orm:column name="Vendors_idVendors" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="Measures_idMeasures" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        <orm:column name="BasePrice" sql-type="decimal" nullable="true" length="10" scale="2" ado-type="Decimal" />
+        <orm:index name="fk_Products_Measures1_idx">
+          <orm:columnMapping>
+            <orm:column name="Measures_idMeasures" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+        <orm:index name="fk_Products_Vendors_idx">
+          <orm:columnMapping>
+            <orm:column name="Vendors_idVendors" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+          </orm:columnMapping>
+        </orm:index>
+        <orm:constraint name="fk_Products_Measures1" destination-table="measures">
+          <orm:column name="Measures_idMeasures" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:constraint>
+        <orm:constraint name="fk_Products_Vendors" destination-table="vendors">
+          <orm:column name="Vendors_idVendors" sql-type="integer" nullable="false" length="0" scale="0" ado-type="Int32" />
+        </orm:constraint>
+      </orm:table>
+      <orm:table name="measures">
+        <orm:column name="idMeasures" sql-type="integer" nullable="false" length="0" scale="0" primary-key="true" backend-calculated="true" ado-type="Int32" />
+        <orm:column name="MeasureName" sql-type="nvarchar" nullable="true" length="50" scale="0" ado-type="UnicodeStringVariableLength" />
+      </orm:table>
+    </orm:schema>
+    <orm:relational-naming-settings>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+      <orm:source-strategy>Property</orm:source-strategy>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <AppConfigConnectionPropertyName>BloodymarryConnection</AppConfigConnectionPropertyName>
+    <AppConfigConnectionString>server=127.0.0.1;User Id=root;password=sh3va1;Persist Security Info=True;database=bloodymarry</AppConfigConnectionString>
+    <InitialCatalog>bloodymarry</InitialCatalog>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <MappingDefinitionType>Xml</MappingDefinitionType>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings />
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>MySql</Backend>
+        <ProviderName>MySql.Data.MySqlClient</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="0d5bdb31-bb29-4cf7-8246-ea3772b50c3f" name="Vendor" namespace="MySQLModule.Model" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="eed012d7-368a-42df-a28c-6eab354350e0" name="IdVendors" type="Int32" label="IdVendors : Int32" kind="Persistent" identity="true" fieldName="_idVendors" />
+      <Property Id="836373ae-5c49-4c69-a474-0cc103b2205c" name="VendorName" label="VendorName : String" kind="Persistent" fieldName="_vendorName" />
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="8edf4c17-9946-4650-a286-3e1e42b95e6f">
+          <NavigationalProperty Id="3755bb2d-25d9-4dcf-bdfc-df9b9cd93daf" name="Products" type="IList&lt;Product&gt;" label="Products : IList&lt;Product&gt;" nullable="true" kind="Persistent" fieldName="_products" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="d0eb7704-f19f-4580-97b4-c1d04d11884d" name="Product" namespace="MySQLModule.Model" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="2ba9b2b3-a272-4f70-a747-510fe203914e" name="IdProducts" type="Int32" label="IdProducts : Int32" kind="Persistent" identity="true" fieldName="_idProducts" />
+      <Property Id="b9493393-9bcb-412e-88a6-27a853676622" name="BasePrice" type="Decimal" label="BasePrice : Decimal" nullable="true" kind="Persistent" fieldName="_basePrice" />
+      <Property Id="b57a1cf9-9f3b-4bff-93b7-8a46cfcf888e" name="Measures_idMeasures" type="Int32" label="Measures_idMeasures : Int32" kind="Persistent" fieldName="_measures_idMeasures" />
+      <Property Id="2f6e43b7-c09e-40a8-a51b-af138ca02d01" name="ProductName" label="ProductName : String" kind="Persistent" fieldName="_productName" />
+      <Property Id="3ccaadd4-c1d4-469b-abd8-563a1800540c" name="Vendors_idVendors" type="Int32" label="Vendors_idVendors : Int32" kind="Persistent" fieldName="_vendors_idVendors" />
+      <AssociationTargets>
+        <Association Id="36d9a432-2a17-4c67-9a35-97aa5529b4ac" SourceMultiplicity="One" name="ProductHasMeasure">
+          <DomainClassMoniker name="/EntitiesModel/Measure" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="28afd792-9166-48ae-b260-8c0bb6592a46">
+              <NavigationalPropertyMoniker name="/EntitiesModel/Measure/Products" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="cec1f691-7159-4b75-b2b7-98223aad5f9f">
+              <NavigationalPropertyMoniker name="/EntitiesModel/Product/Measure" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+        <Association Id="331cd9c1-44af-44d9-aaa0-d18572b83d7e" SourceMultiplicity="One" name="ProductHasVendor">
+          <DomainClassMoniker name="/EntitiesModel/Vendor" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="2d7cbf64-5d7b-45ef-9379-ba68932b10fe">
+              <NavigationalPropertyMoniker name="/EntitiesModel/Vendor/Products" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="8f28c98f-78b2-476e-9715-8d10f748170b">
+              <NavigationalPropertyMoniker name="/EntitiesModel/Product/Vendor" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="59c1c1ef-4fef-47f9-86c1-b297d70cfa02">
+          <NavigationalProperty Id="ea7a2037-a6d9-4fcb-ac16-b2fbdc351cb7" name="Measure" type="Measure" label="Measure : Measure" nullable="true" kind="Persistent" fieldName="_measure" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+        <classHasNavigationalProperties Id="db5a9da4-d7f8-4d1c-b4c1-bf547916b476">
+          <NavigationalProperty Id="0f2b1e4b-e0d1-483c-b484-c03ac7cf7c80" name="Vendor" type="Vendor" label="Vendor : Vendor" nullable="true" kind="Persistent" fieldName="_vendor" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="53f2b985-da5d-4ee9-8e38-506069cd1575" name="Measure" namespace="MySQLModule.Model" showPropertiesCompartment="true" identityMechanism="DatabaseServerCalculated" concurrencyMode="Changed" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="e671403e-ef74-49b5-b793-2132633de8aa" name="IdMeasures" type="Int32" label="IdMeasures : Int32" kind="Persistent" identity="true" fieldName="_idMeasures" />
+      <Property Id="8a667414-04ca-4ffa-a577-2c2fc2855290" name="MeasureName" label="MeasureName : String" kind="Persistent" fieldName="_measureName" />
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="f3f31013-9b27-4776-950d-d59888e3af4b">
+          <NavigationalProperty Id="819b5565-92b0-4416-b94d-89090f0d3d51" name="Products" type="IList&lt;Product&gt;" label="Products : IList&lt;Product&gt;" nullable="true" kind="Persistent" fieldName="_products" isDependent="false" isManaged="false" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="43ff06b2-2330-4a4b-8ae4-4863bbbbe3ef">
+      <domainContainer name="EntitiesModel" namespace="MySQLModule.Model" showPropertiesCompartment="true">
+        <entitySetProperty name="Vendors" namespace="MySQLModule.Model" type="Vendor" label="Vendors : IQueryable&lt;MySQLModule.Model.Vendor&gt;" />
+        <entitySetProperty name="Products" namespace="MySQLModule.Model" type="Product" label="Products : IQueryable&lt;MySQLModule.Model.Product&gt;" />
+        <entitySetProperty name="Measures" namespace="MySQLModule.Model" type="Measure" label="Measures : IQueryable&lt;MySQLModule.Model.Measure&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D44D834C-9D0F-4085-9EBB-A933E0DF5C7C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MainClient</RootNamespace>
+    <AssemblyName>MainClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelReaderModule\ExcelReaderModule.csproj">
+      <Project>{223d3bc4-df74-4b92-ae63-71328b133fc0}</Project>
+      <Name>ExcelReaderModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MongoDbModule\MongoDbModule.csproj">
+      <Project>{dea0d3f8-cec0-49ad-ba67-c8e8f36065a1}</Project>
+      <Name>MongoDbModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MsSQLModule.Client\MsSQLModule.Persister.csproj">
+      <Project>{80b94c71-590f-49bb-b63b-5815e3f0196b}</Project>
+      <Name>MsSQLModule.Persister</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MySQLModule.Persister\MySQLModule.Persister.csproj">
+      <Project>{1516d7df-eb6b-4811-b88f-6501aafed749}</Project>
+      <Name>MySQLModule.Persister</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDFModule\PDFModule.csproj">
+      <Project>{313ec285-69f1-4bf6-b49c-ef43bd0006d2}</Project>
+      <Name>PDFModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProductInfo\ProductInfo.csproj">
+      <Project>{030d12b0-2e29-4bc3-8328-f083221cfc97}</Project>
+      <Name>ProductInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SalesInformation\SalesInformation.csproj">
+      <Project>{06b21741-ae85-4f64-a8ca-36ea3e7ccf89}</Project>
+      <Name>SalesInformation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLITEModule\SQLITEModule.csproj">
+      <Project>{a18d5000-d496-41bf-848e-026666e78e27}</Project>
+      <Name>SQLITEModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMLModule\XMLModule.csproj">
+      <Project>{cedccdc4-697f-4955-91c1-0ae4e4dc8e92}</Project>
+      <Name>XMLModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

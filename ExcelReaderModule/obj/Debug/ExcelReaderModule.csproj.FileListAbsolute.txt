@@ -1,0 +1,9 @@
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\obj\Debug\ExcelReaderModule.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\ExcelReaderModule.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\ExcelReaderModule.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\Ionic.Zip.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\SalesInformation.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\SalesInformation.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\bin\Debug\Ionic.Zip.xml
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\obj\Debug\ExcelReaderModule.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ExcelReaderModule\obj\Debug\ExcelReaderModule.pdb

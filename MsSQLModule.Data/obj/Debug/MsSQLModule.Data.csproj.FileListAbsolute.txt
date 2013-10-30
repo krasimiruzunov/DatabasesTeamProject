@@ -1,0 +1,43 @@
+<<<<<<< .mine
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll.config
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.xml
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.csprojResolveAssemblyReference.cache
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.pdb
+=======
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.pdb
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.pdb
+>>>>>>> .r8
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll.config
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.pdb
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.xml
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.csprojResolveAssemblyReference.cache
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll.config
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.pdb
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\EntityFramework.dll
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.pdb
+G:\DataBases\teamwork\New\MsSQLModule.Data\bin\Debug\EntityFramework.xml
+G:\DataBases\teamwork\New\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.csprojResolveAssemblyReference.cache
+G:\DataBases\teamwork\New\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.dll
+G:\DataBases\teamwork\New\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll.config
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Data.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\MsSQLModule.Model.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\bin\Debug\EntityFramework.xml
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Data\obj\Debug\MsSQLModule.Data.pdb

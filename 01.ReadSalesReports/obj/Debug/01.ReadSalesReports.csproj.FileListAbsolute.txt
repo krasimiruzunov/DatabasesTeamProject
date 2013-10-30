@@ -1,0 +1,12 @@
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\01.ReadSalesReports.exe.config
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\01.ReadSalesReports.exe
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\01.ReadSalesReports.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\ExcelReaderModule.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\SalesInformation.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\Ionic.Zip.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\ExcelReaderModule.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\SalesInformation.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\bin\Debug\Ionic.Zip.xml
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\obj\Debug\01.ReadSalesReports.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\obj\Debug\01.ReadSalesReports.exe
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\01.ReadSalesReports\obj\Debug\01.ReadSalesReports.pdb

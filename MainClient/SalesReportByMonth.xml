@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sales>
+  <sale vendor="Apple">
+    <expenses month="Jul-2013">952.17</expenses>
+  </sale>
+  <sale vendor="Asus">
+    <expenses month="Jul-2013">958.10</expenses>
+  </sale>
+  <sale vendor="Craft foods">
+    <expenses month="Jul-2013">184.20</expenses>
+  </sale>
+  <sale vendor="HP">
+    <expenses month="Jul-2013">1474.60</expenses>
+  </sale>
+  <sale vendor="Kamenitsa AD">
+    <expenses month="Jul-2013">6915.85</expenses>
+  </sale>
+  <sale vendor="Nestle">
+    <expenses month="Jul-2013">199.28</expenses>
+  </sale>
+  <sale vendor="Pobeda">
+    <expenses month="Jul-2013">762.40</expenses>
+  </sale>
+  <sale vendor="Zagorka AD">
+    <expenses month="Jul-2013">3116.99</expenses>
+  </sale>
+</sales>

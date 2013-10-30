@@ -1,0 +1,19 @@
+<<<<<<< .mine
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Client.exe.config
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Client.exe
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Client.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\EntityFramework.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Data.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Model.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Data.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\EntityFramework.xml
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Model.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\obj\Debug\MsSQLModule.Client.csprojResolveAssemblyReference.cache
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\obj\Debug\MsSQLModule.Client.exe
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Client\obj\Debug\MsSQLModule.Client.pdb
+=======
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Client.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Client\bin\Debug\MsSQLModule.Client.pdb
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Client\obj\Debug\MsSQLModule.Client.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Client\obj\Debug\MsSQLModule.Client.pdb
+>>>>>>> .r8

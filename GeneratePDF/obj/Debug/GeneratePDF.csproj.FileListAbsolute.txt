@@ -1,0 +1,11 @@
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\GeneratePDF.exe.config
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\GeneratePDF.exe
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\GeneratePDF.pdb
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\iTextSharp.dll
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csprojResolveAssemblyReference.cache
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.exe
+c:\users\fili\documents\visual studio 2012\Projects\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.pdb
+C:\Users\Fili\Documents\Visual Studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\EntityFramework.dll
+C:\Users\Fili\Documents\Visual Studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\EntityFramework.xml
+C:\Users\Fili\Documents\Visual Studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\SalesReportEntities.dll
+C:\Users\Fili\Documents\Visual Studio 2012\Projects\GeneratePDF\GeneratePDF\bin\Debug\SalesReportEntities.pdb

@@ -1,0 +1,21 @@
+<<<<<<< .mine
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.pdb
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.dll
+C:\Users\academy\Desktop\bloodymerry\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.pdb
+=======
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.pdb
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.pdb
+>>>>>>> .r8
+G:\DataBases\teamwork\New\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\New\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.pdb
+G:\DataBases\teamwork\New\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.csprojResolveAssemblyReference.cache
+G:\DataBases\teamwork\New\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.dll
+G:\DataBases\teamwork\New\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Model\bin\Debug\MsSQLModule.Model.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\MsSQLModule.Model\obj\Debug\MsSQLModule.Model.pdb

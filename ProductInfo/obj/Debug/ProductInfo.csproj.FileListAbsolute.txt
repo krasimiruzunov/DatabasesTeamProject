@@ -1,0 +1,9 @@
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\ProductInfo.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\ProductInfo.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\MySQLModule.Data.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\MySQLModule.Data.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\obj\Debug\ProductInfo.csprojResolveAssemblyReference.cache
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\obj\Debug\ProductInfo.dll
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\obj\Debug\ProductInfo.pdb
+C:\Users\Fili\Desktop\Team Work\bloodymarry\ bloodymarry\ProductInfo\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
